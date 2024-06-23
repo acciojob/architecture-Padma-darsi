@@ -1,1 +1,88 @@
-/*  your css code here. If applicable */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1100px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.imageContainer {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.imageContainer img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #d3e5e2;
+    border: 1px solid #ccc;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+}
+
+td img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+td:first-child, td:last-child {
+    width: 200px;
+}
+
+td:nth-child(2) {
+    width: 600px;
+}
+
+h3 {
+    margin: 0;
+    color: #333;
+}
+
+p {
+    margin: 10px 0 0 0;
+    color: #333;
+    text-align: left;
+}
+
+td p {
+    text-align: center;
+}
+
+td p strong {
+    display: block;
+    margin-bottom: 5px;
+}
+
+td p a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+td p a:hover {
+    text-decoration: underline;
+}
